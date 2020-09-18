@@ -1,12 +1,8 @@
 package linkedlist.链表是否相交;
 
-class ListNode{
-    int val;
-    ListNode next;
-    ListNode(int val){
-        this.val = val;
-    }
-}
+
+import linkedlist.ListNode;
+
 public class Main {
     public static void main(String[] args) {
         ListNode h1 = new ListNode(1);
