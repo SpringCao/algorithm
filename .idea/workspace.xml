@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b00a8dbb-4584-4132-a219-21dba4f1fff0" name="Default Changelist" comment="" />
+    <list default="true" id="b00a8dbb-4584-4132-a219-21dba4f1fff0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/array/连续子数组的最大和/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/链表是否相交/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/有效的括号/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/字符串转数字/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/二叉树的视图/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/二叉树的视图/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/二叉树的遍历/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/二叉树的遍历/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/string/最长公共前缀/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/string/最长公共前缀/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +22,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -22,6 +38,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1hamXURPwwCvdDw1i4Ks8b1pXYl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,13 +60,70 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.最长公共前缀.Main" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tree.二叉树的视图" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.二叉树的遍历.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.最长公共前缀.*" />
+          <option name="PATTERN" value="tree.二叉树的遍历.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.二叉树的视图.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.二叉树的视图.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.连续子数组的最大和.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.连续子数组的最大和.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.链表是否相交.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.链表是否相交.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.有效的括号.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.有效的括号.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,6 +134,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -73,7 +151,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600257616051</updated>
-      <workItem from="1600257617753" duration="2198000" />
+      <workItem from="1600257617753" duration="9564000" />
+      <workItem from="1600327495494" duration="7196000" />
     </task>
     <servers />
   </component>
@@ -81,21 +160,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1600260848656">
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom" timestamp="1600395647159">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600260848656" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1600260848654">
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600395647159" />
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.23.1440.792@0.23.1440.792" timestamp="1600330730967" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center" timestamp="1600395647157">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600260848654" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1600260848653">
+    <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600395647157" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center/0.23.1440.792@0.23.1440.792" timestamp="1600330730965" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left" timestamp="1600395647155">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600260848653" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1600260848655">
+    <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600395647155" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left/0.23.1440.792@0.23.1440.792" timestamp="1600330730964" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right" timestamp="1600395647158">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600260848655" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600395647158" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right/0.23.1440.792@0.23.1440.792" timestamp="1600330730966" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1600329454433">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1600329454433" />
   </component>
 </project>
