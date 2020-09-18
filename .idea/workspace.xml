@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b00a8dbb-4584-4132-a219-21dba4f1fff0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/合并两个有序链表/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/排序链表/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/链表相交的第一个节点/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/二叉搜索树节点最小距离/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/连续子数组的最大和/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/连续子数组的最大和/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/二叉树的视图/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/二叉树的视图/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/二叉树的视图/TreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/二叉树的遍历/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/二叉树的遍历/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/二叉树的遍历/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +62,7 @@
       <recent name="tree.二叉树的视图" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.链表反转.Main" />
       <module name="algorithm" />
@@ -84,12 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.链表相交的第一个节点.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.链表相交的第一个节点.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.连续子数组的最大和.Main" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.排序链表.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.连续子数组的最大和.*" />
+          <option name="PATTERN" value="linkedlist.排序链表.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,25 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.有效的括号.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.二叉搜索树节点最小距离.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.有效的括号.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.链表是否相交.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="tree.二叉搜索树节点最小距离.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600257616051</updated>
       <workItem from="1600257617753" duration="9564000" />
-      <workItem from="1600327495494" duration="10580000" />
+      <workItem from="1600327495494" duration="13884000" />
     </task>
     <servers />
   </component>
@@ -152,25 +157,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="239" key="GridCell.Tab.0.bottom" timestamp="1600414443184">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600429451216">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600414443184" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1600429451216" />
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom" timestamp="1600416450678">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600416450678" />
     <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.23.1440.792@0.23.1440.792" timestamp="1600330730967" />
-    <state width="1398" height="239" key="GridCell.Tab.0.center" timestamp="1600414443179">
+    <state width="1398" height="239" key="GridCell.Tab.0.center" timestamp="1600416450675">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600414443179" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600416450675" />
     <state width="1398" height="239" key="GridCell.Tab.0.center/0.23.1440.792@0.23.1440.792" timestamp="1600330730965" />
-    <state width="1398" height="239" key="GridCell.Tab.0.left" timestamp="1600414443177">
+    <state width="1398" height="239" key="GridCell.Tab.0.left" timestamp="1600416450674">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600414443177" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600416450674" />
     <state width="1398" height="239" key="GridCell.Tab.0.left/0.23.1440.792@0.23.1440.792" timestamp="1600330730964" />
-    <state width="1398" height="239" key="GridCell.Tab.0.right" timestamp="1600414443181">
+    <state width="1398" height="239" key="GridCell.Tab.0.right" timestamp="1600416450677">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600414443181" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600416450677" />
     <state width="1398" height="239" key="GridCell.Tab.0.right/0.23.1440.792@0.23.1440.792" timestamp="1600330730966" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1600329454433">
       <screen x="0" y="0" width="1440" height="900" />

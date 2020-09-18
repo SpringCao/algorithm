@@ -1,7 +1,10 @@
 package tree.二叉树的视图;
 
+import tree.TreeNode;
+
 import java.util.LinkedList;
 import java.util.Queue;
+
 
 public class Main {
     public static void main(String[] args) {
