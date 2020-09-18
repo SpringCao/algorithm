@@ -12,12 +12,18 @@ public class Main {
         dp[0] = arr[0];
         int res = dp[0];
         for (int i = 1; i < arr.length; i++) {
-            if (dp[i-1] + arr[i] < 0){
-                dp[i] = 0;
-            }else {
-                dp[i] = dp[i-1] + arr[i];
-            }
+            dp[i] = Math.max(dp[i-1]+arr[i],arr[i]);
             res = Math.max(res,dp[i]);
+        }
+        return res;
+    }
+
+    //空间复杂度为O(1);
+    private static int maxSubArray2(int[] nums){
+        int res = nums[0];
+        for (int i = 1; i < nums.length; i++) {
+            nums[i] += Math.max(nums[i-1],0);
+            res = Math.max(nums[i],res);
         }
         return res;
     }
