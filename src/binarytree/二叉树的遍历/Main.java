@@ -1,6 +1,6 @@
-package tree.二叉树的遍历;
+package binarytree.二叉树的遍历;
 
-import tree.TreeNode;
+import binarytree.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

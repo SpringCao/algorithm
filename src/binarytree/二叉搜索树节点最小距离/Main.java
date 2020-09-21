@@ -1,6 +1,6 @@
-package tree.二叉搜索树节点最小距离;
+package binarytree.二叉搜索树节点最小距离;
 
-import tree.TreeNode;
+import binarytree.TreeNode;
 
 public class Main {
     Integer pre,res;

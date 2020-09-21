@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b00a8dbb-4584-4132-a219-21dba4f1fff0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/排序链表/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/链表相交的第一个节点/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/二叉搜索树节点最小距离/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/三数之和/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/删除链表的节点/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/二叉树的视图/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/二叉树的视图/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/二叉树的视图/TreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/二叉树的遍历/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/二叉树的遍历/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/二叉树的遍历/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/linkedlist/链表是否相交/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/linkedlist/链表是否相交/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/tree/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/tree/二叉搜索树节点最小距离/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/tree/二叉树的视图/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/tree/二叉树的遍历/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/链表是否相交/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/链表是否相交/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarytree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/二叉搜索树节点最小距离/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarytree/二叉搜索树节点最小距离/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/二叉树的视图/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarytree/二叉树的视图/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/二叉树的遍历/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarytree/二叉树的遍历/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,26 +67,13 @@
       <recent name="tree.二叉树的视图" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.链表反转.Main" />
+      <option name="MAIN_CLASS_NAME" value="array.三数之和.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.链表反转.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.合并两个有序链表.Main" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.合并两个有序链表.*" />
+          <option name="PATTERN" value="array.三数之和.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +108,24 @@
       </method>
     </configuration>
     <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.二叉搜索树节点最小距离.Main" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.删除链表的节点.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.二叉搜索树节点最小距离.*" />
+          <option name="PATTERN" value="linkedlist.删除链表的节点.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.链表是否相交.Main" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.链表是否相交.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +154,9 @@
       <option name="presentableId" value="Default" />
       <updated>1600257616051</updated>
       <workItem from="1600257617753" duration="9564000" />
-      <workItem from="1600327495494" duration="13884000" />
+      <workItem from="1600327495494" duration="14764000" />
+      <workItem from="1600569986132" duration="1965000" />
+      <workItem from="1600655205294" duration="2962000" />
     </task>
     <servers />
   </component>
@@ -161,29 +168,33 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1600429451216" />
-    <state width="1398" height="239" key="GridCell.Tab.0.bottom" timestamp="1600416450678">
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom" timestamp="1600658680843">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600416450678" />
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600658680843" />
     <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.23.1440.792@0.23.1440.792" timestamp="1600330730967" />
-    <state width="1398" height="239" key="GridCell.Tab.0.center" timestamp="1600416450675">
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1600483851152" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center" timestamp="1600658680840">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600416450675" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600658680840" />
     <state width="1398" height="239" key="GridCell.Tab.0.center/0.23.1440.792@0.23.1440.792" timestamp="1600330730965" />
-    <state width="1398" height="239" key="GridCell.Tab.0.left" timestamp="1600416450674">
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1600483851150" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left" timestamp="1600658680839">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600416450674" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600658680839" />
     <state width="1398" height="239" key="GridCell.Tab.0.left/0.23.1440.792@0.23.1440.792" timestamp="1600330730964" />
-    <state width="1398" height="239" key="GridCell.Tab.0.right" timestamp="1600416450677">
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1600483851149" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right" timestamp="1600658680842">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600416450677" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600658680842" />
     <state width="1398" height="239" key="GridCell.Tab.0.right/0.23.1440.792@0.23.1440.792" timestamp="1600330730966" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1600329454433">
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1600483851151" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1600655990365">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1600329454433" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1600655990365" />
   </component>
 </project>

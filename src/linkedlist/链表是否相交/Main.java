@@ -3,6 +3,9 @@ package linkedlist.链表是否相交;
 
 import linkedlist.ListNode;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Main {
     public static void main(String[] args) {
         ListNode h1 = new ListNode(1);
@@ -16,10 +19,11 @@ public class Main {
         h4.next = h5;
         ListNode m1 = new ListNode(6);
         ListNode m2 = new ListNode(7);
-        m1.next = m2;
-        System.out.println(isIntersect(h1, m1));
+        m1.next = h3;
+        System.out.println(isIntersect2(h1, m1));
     }
 
+    //适用于链表无环的情况
     private static  boolean isIntersect(ListNode head1,ListNode head2){
         if (head1 == null || head2 == null){
             return true;
@@ -33,5 +37,24 @@ public class Main {
             q = q.next;
         }
         return p == q;
+    }
+
+    //通用方法
+    private static boolean isIntersect2(ListNode head1,ListNode head2){
+        if (head1 == null || head2 == null){
+            return false;
+        }
+        Set<ListNode> set = new HashSet<>();
+        while (head1 != null){
+            set.add(head1);
+            head1 = head1.next;
+        }
+        while (head2 != null){
+            if (set.contains(head2)){
+                return true;
+            }
+            head2 = head2.next;
+        }
+        return false;
     }
 }
