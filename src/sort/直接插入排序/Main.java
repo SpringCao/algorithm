@@ -1,4 +1,4 @@
-package Sort.直接插入排序;
+package sort.直接插入排序;
 
 import java.util.Arrays;
 

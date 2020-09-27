@@ -1,4 +1,4 @@
-package Sort.快速排序;
+package sort.快速排序;
 
 import java.util.Arrays;
 

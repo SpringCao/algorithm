@@ -1,4 +1,4 @@
-package Sort.冒泡排序;
+package sort.冒泡排序;
 
 import java.util.Arrays;
 

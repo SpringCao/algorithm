@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b00a8dbb-4584-4132-a219-21dba4f1fff0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Sort/冒泡排序/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort/快速排序/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort/直接插入排序/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/二分查找/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/奇数位于偶数前面/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/有序数组的平方和/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashmap/LRU/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/环形链表/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/环形链表环的长度/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/环形链表的第一个节点/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/字母大小写全排列/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/冒泡排序/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/冒泡排序/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/快速排序/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/快速排序/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/直接插入排序/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/直接插入排序/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +66,13 @@
       <recent name="tree.二叉树的视图" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.三数之和.Main" />
+      <option name="MAIN_CLASS_NAME" value="array.有序数组的平方和.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.三数之和.*" />
+          <option name="PATTERN" value="array.有序数组的平方和.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,11 +81,11 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.快速排序.Main" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.环形链表.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.快速排序.*" />
+          <option name="PATTERN" value="linkedlist.环形链表.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,11 +94,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.冒泡排序.Main" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.环形链表的第一个节点.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.冒泡排序.*" />
+          <option name="PATTERN" value="linkedlist.环形链表的第一个节点.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,11 +107,11 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.直接插入排序.Main" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.环形链表环的长度.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.直接插入排序.*" />
+          <option name="PATTERN" value="linkedlist.环形链表环的长度.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.链表是否相交.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.二分查找.Main" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.链表是否相交.*" />
+          <option name="PATTERN" value="array.二分查找.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +155,9 @@
       <workItem from="1600257617753" duration="9564000" />
       <workItem from="1600327495494" duration="14764000" />
       <workItem from="1600569986132" duration="1965000" />
-      <workItem from="1600655205294" duration="6845000" />
+      <workItem from="1600655205294" duration="12106000" />
+      <workItem from="1600914628218" duration="2411000" />
+      <workItem from="1601025589583" duration="4681000" />
     </task>
     <servers />
   </component>
@@ -159,30 +169,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1600429451216" />
-    <state width="1398" height="295" key="GridCell.Tab.0.bottom" timestamp="1600678901953">
+    <state width="1398" height="295" key="GridCell.Tab.0.bottom" timestamp="1601175675565">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="295" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600678901953" />
+    <state width="1398" height="295" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601175675565" />
     <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.23.1440.792@0.23.1440.792" timestamp="1600330730967" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1600483851152" />
-    <state width="1398" height="295" key="GridCell.Tab.0.center" timestamp="1600678901951">
+    <state width="1398" height="295" key="GridCell.Tab.0.center" timestamp="1601175675563">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="295" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600678901951" />
+    <state width="1398" height="295" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601175675563" />
     <state width="1398" height="239" key="GridCell.Tab.0.center/0.23.1440.792@0.23.1440.792" timestamp="1600330730965" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1600483851150" />
-    <state width="1398" height="295" key="GridCell.Tab.0.left" timestamp="1600678901949">
+    <state width="1398" height="295" key="GridCell.Tab.0.left" timestamp="1601175675561">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="295" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600678901949" />
+    <state width="1398" height="295" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601175675561" />
     <state width="1398" height="239" key="GridCell.Tab.0.left/0.23.1440.792@0.23.1440.792" timestamp="1600330730964" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1600483851149" />
-    <state width="1398" height="295" key="GridCell.Tab.0.right" timestamp="1600678901952">
+    <state width="1398" height="295" key="GridCell.Tab.0.right" timestamp="1601175675564">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="295" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600678901952" />
+    <state width="1398" height="295" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601175675564" />
     <state width="1398" height="239" key="GridCell.Tab.0.right/0.23.1440.792@0.23.1440.792" timestamp="1600330730966" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1600483851151" />
+    <state x="400" y="207" width="639" height="486" key="find.popup" timestamp="1600929026781">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="400" y="207" width="639" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1600929026781" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1600655990365">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
